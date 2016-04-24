@@ -37,6 +37,11 @@ li {
 	border-style: solid;
 	border-width: 5px;
 	}
+.clearfloats{ clear: both; }
+#header{
+	background: purple;
+	width: 100%;
+	}
 #big_content{
 	width: 960px;
 	position: fixed;
@@ -51,6 +56,9 @@ li {
 }
 #aboutsection{
 	background: #ffffff;
+	float: left;
+	padding: 20px;
+	margin-left: 30px;
 }
 #yourname{
 	position: relative;
@@ -58,6 +66,7 @@ li {
 	left: 150px ;
 	font-size: 25px;
 	font-weight: bold;
+	height: 88px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #ffffff;
 	background-color: #4aaaa5;
