@@ -1,6 +1,7 @@
 
 /**
 css style sheet for three html page homework assignment, 4/2016
+used in index.html, portfolio.html, and contact.html
 
 colors used homework spec:
 #4AAAA5 - turquoise shade
@@ -30,6 +31,15 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4AAAA5;	
 	text-align: center;
+}
+h3 {
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #FFFFFF;
+	background-color: #4AAAA5;
+	position: absolute;
+	top: 130px;
 }
 ​
 h4 {
@@ -88,24 +98,25 @@ li {
 	background-color: #4AAAA5;
 	float: left;
 	position: relative;
-	
+	border-bottom: solid; 
+	border-color: #cccccc;
 }
-#box-links {
-	
+#box-links {	
 	height: 91px;
 	line-height: 91px;
 	padding-left: 30px;
 	padding-right: 30px;
 	float: left;
-	background-color: #E86436;
+	background-color: #FFFFFF;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 19px;
+	font-size:  16px;
+	color: #D5D6CE;
 	float: left;
 	position: relative;
-	
+	border-bottom: solid; 
+	border-color: #cccccc;
 }
-.box-footer {
-	
+.box-footer {	
 	height: 94px;
 	line-height: 94px;
 	text-align: center;
@@ -116,9 +127,18 @@ li {
 	border-color: #4AAAA5;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 15px;
-
 }
 
+.box-contact{
+
+}
+.img-project {
+	position: relative;
+
+}
+.turq-banner {
+
+}
 .box-mainbox {
 	background: #ffffff;
 	border: solid;
