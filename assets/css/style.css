@@ -15,6 +15,7 @@ colors used extra:
 #9FA093 - medium gray
 
 **/
+@school-turquoise: #4AAAA5;
 
 html {
   box-sizing: border-box;
@@ -27,7 +28,6 @@ form {
 	font-size: 15px;
 	margin-top: 40px;
 	color: #9FA093;
-
 }
 input {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -37,11 +37,10 @@ input {
 }
 input[type=submit] {
     padding:5px 15px; 
-    background:#4AAAA5; 
+    background: @school-turquoise; 
     border:0 none;
     cursor:pointer;
-    font-size: 15px;
-    
+    font-size: 15px;  
 }
 h1 {
 	font-size: 30px;
@@ -55,12 +54,14 @@ h2 {
 }
 h3 {
 	font-size: 17px;
+	font-weight: normal;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #FFFFFF;
 	background-color: #4AAAA5;
-	position: absolute;
-	top: 130px;
+	position: relative;
+	line-height: 60px;
+	bottom: 120px;
 }
 ​
 h4 {
@@ -68,15 +69,13 @@ h4 {
 	text-align: center;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 30px;
-	text-align: center;
-	
+	text-align: center;	
 } 
 ​
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }	
 ​
 hr {
@@ -90,7 +89,15 @@ li {
 	border-style: solid;
 	border-width: 5px;
 }
-
+.img-project {
+	/** position: relative; **/
+	float: left;
+	margin-right: 10px;
+	padding-right: 5px;
+	bottom: 100px;
+	
+	
+}
 .maintext {
 	text-align: left;
 	line-height: 30px;
@@ -170,13 +177,7 @@ li {
 .box-contact{
 
 }
-.img-project {
-	position: relative;
-	float: left;
-	margin-right: 10px;
-	padding-right: 5px;
 
-}
 .turq-banner {
 
 }
